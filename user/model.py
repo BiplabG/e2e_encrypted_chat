@@ -6,3 +6,4 @@ class User(BaseModel):
     signature: str
     friends: list[str] = []
 
+collection = "user"
