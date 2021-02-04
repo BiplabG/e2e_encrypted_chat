@@ -15,3 +15,5 @@ class Message(BaseModel):
     type: MessageTypeEnum #Should be either sent or received
     sender: str
     receiver: str
+
+collection = "message"
